@@ -1,0 +1,64 @@
+.Pagination{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(34, 29, 29);
+    font-variant: inherit;
+    font-style: italic;
+    text-align: center;
+    font-size: 36px;
+}
+
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 500px;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    background-color: white;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-img{
+    height: 200px;
+    width: 200px;
+
+}
+
+.page-number{
+    padding: 4px;
+    margin: 4px;
+    width: 40px;
+    border: 1px solid black ;
+}
+
+.pagination-container{
+    padding: 5px;
+    margin: 5px;
+}
+.active{
+    background-color:aquamarine;
+}
